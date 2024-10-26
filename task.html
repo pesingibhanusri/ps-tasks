@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let amount =prompt("enter amount")
+ if (amount<=250500){
+     console.log("no tax")
+ }
+ else if(amount > 250000 &&  amount<= 500000){
+     tax=(amount-250500)*0.05
+     console.log("tax")
+ }
+ else if(amount> 500000 &&  amount<= 1000000){
+     tax=(12500+(amount-500000))*0.20
+     console.log("tax")
+ }
+ else if(amount>1000000){
+     tax=(112500+(amount-1000000))*0.30
+     console.log("tax")
+ }
+ else{
+    console.log("out of amount") 
+ }
+
+
+
+
+
+
+
+
+ let weight=prompt("enter weight ")  
+ if (weight<=1){
+     let destination=prompt("enter local,national,international")
+         if(destinationation=="local"){
+             console.log("shipping cost is 5 rupees")
+         }
+         else if(destination=="national"){
+             console.log("shipping cost is 8 rupees")
+         }
+         else {
+             console.log("shipping cost is 15 rupees")
+         }
+     }
+
+     else if(weight>1 && weight<=5){
+       let destination=prompt("enter local,national,international")
+       if(destinationation=="local"){
+             console.log("shipping cost is 10 rupees")
+         }
+         else if(destination=="national"){
+             console.log("shipping cost is 15 rupees")
+         }
+         else {
+             console.log("shipping cost is 30 rupees")
+         }
+      
+  }
+ 
+  else if(weight>5 && weight<=10){
+       let destination=prompt("enter local,national,international")
+       if(destinationation=="local"){
+             console.log("shipping cost is 20 rupees")
+         }
+         else if(destination=="national"){
+             console.log("shipping cost is 25 rupees")
+         }
+         else {
+             console.log("shipping cost is 50 rupees")
+         }
+      
+  }
+  else if(weight>10){
+       let destination=prompt("enter local,national,international")
+       if(destinationation=="local"){
+             console.log("shipping cost is 30 rupees")
+         }
+         else if(destination=="national"){
+             console.log("shipping cost is 35 rupees")
+         }
+         else {
+             console.log("shipping cost is 70 rupees")
+         }
+  }
+  else{
+      console.log("out of weight")
+  }
+
+
+
+
+
+
+  let units=prompt("enter units")
+if(units<=100){
+    console.log(units*1)
+}
+else if (units>100 && units<=300){
+    console.log(100*1+(units-100*1.5))
+}
+else if(units>300){
+    console.log(100*1+200*1.5+(units-200*2))
+}
+else{
+    console.log("not a units")
+}
+
+    </script>
+</body>
+</html>
