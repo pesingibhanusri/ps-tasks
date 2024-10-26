@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        const movie=prompt("enter movie type:  ")
+switch(movie){
+    case "action":
+        seat=prompt("enter seat type:  ")
+        switch(seat){
+               case "standard":
+                console.log("standard seat is 10 rupees");
+                break;
+                 case "vip":
+                console.log("vip seat is 20 rupees");
+                break;
+                default:
+                console.log("enter valid seat")
+        }
+       break;
+      case "comedy":
+           seat=prompt("enter seat type:  ")
+        switch(seat){
+            case "standard":
+                console.log("standard seat is 15 rupees");
+                break;
+                 case "vip":
+                console.log("vip seat is 20 rupees");
+                break;
+                default:
+                console.log("enter valid seat")
+         
+        }
+        break;
+          case "drama":
+               seat=prompt("enter seat type:  ")
+        switch(seat){
+            case "standard":
+                console.log("standard seat is 6 rupees");
+                break;
+                 case "vip":
+                console.log("vip seat is 12 rupees");
+                break;
+                default:
+                console.log("enter valid seat")
+           
+}
+break;
+default:
+console.log("enter valid movie")
+}
+
+
+
+
+// 2nd task
+
+
+
+const productscategory=prompt("enter product category :   ")
+ 
+switch(productscategory){
+    case "electronics":
+    products=prompt("enter products :   ")
+        switch(products){
+            case "mobile":
+                console.log("discount on mobile is 5%");
+            break;
+            case "laptop":
+                console.log("discount on laptop is 10%");
+                break;
+          default:
+          console.log("enter valid products")
+        }
+        break;
+        case "clothing":
+        products=prompt("enter products :   ")
+        switch(products){
+            case "men":
+                console.log("discount on men is 15%");
+            break;
+            case "women":
+                console.log("discount on women is 20%");
+                break;
+          default:
+          console.log("enter valid products")
+        }
+            
+            break;
+            case "grocery":
+            products=prompt("enter products :   ")    
+        switch(products){
+            case "fruits":
+                console.log("discount on fruits are 5%");
+            break;
+            case "vegetables":
+                console.log("discount on vegetables are 10%");
+                break;
+          default:
+          console.log("enter valid products")
+          
+        }
+        break;
+                default:
+                console.log("enter valid category")
+}
+
+// // 3rd task
+
+let transport = prompt("enter mode of transport : ")
+
+
+switch(transport){
+    case "flight":
+        clas = prompt("enterclass:  ")
+          switch(clas){
+              case "economy":
+                  
+                  console.log("your class is economy")
+                  break;
+                  case "business":
+                      console.log("your class is business")
+                      break;
+                      default:
+                      console.log("enter valid class")
+                  
+          }
+             break;    
+       
+case "train":
+      clas = prompt("enterclass:  ")
+          switch(clas){
+              case "sleeper":
+                  console.log("your class is sleeper")
+                  break;
+                  case "ac class":
+                      console.log("your class is ac class")
+                      break;
+                      default:
+                      console.log("enter valid class")
+                  
+          }
+          
+     break;  
+    case "bus":
+         clas = prompt("enterclass:  ")
+          switch(clas){
+              case "standard":
+                  console.log("your class is standard")
+                  break;
+                  case "luxury":
+                      console.log("your class is luxury")
+                      break;
+                      default:
+                      console.log("enter valid class")
+                        
+          }
+           break;
+      default:
+      console.log("enter invalid transport")
+}
+
+
+
+    </script>
+</body>
+</html>
