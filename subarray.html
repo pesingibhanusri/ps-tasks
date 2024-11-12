@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function subarry(arr){
+    finalarr=[]
+    for(i=0;i<arr.length;i++){
+        for(j=i;j<arr.length;j++){
+            arr1=[]
+            for(k=i;k<=j;k++){
+                arr1.push(arr[k])
+              
+            }
+              finalarr.push(arr1)
+        }
+          
+           
+      }
+        maxarray=finalarr[0]
+      for (m=0;m<finalarr.length;m++){
+         
+          if(finalarr[m].length>=maxarray.length){
+              maxarray=finalarr[m]
+                 
+          }
+       
+      }
+console.log(maxarray)
+ return finalarr 
+}
+ arr=[1,2,3]
+
+console.log(subarry(arr))
+
+
+
+
+    </script>
+</body>
+</html>
