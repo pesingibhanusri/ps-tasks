@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // prime number
+//     let n1=prompt("enter number")
+//     let n2=2
+//     if(n1<n2){
+//         console.log("not a prime")
+//     }else if5(n1==n2){
+//         console.log("prime")
+//     }
+//  while(n2<n1){
+//   if(n1%n2==0){
+//     console.log("not a prime")
+//     break
+//  }
+// n2++
+// if(n1==n2){
+//    console.log("prime")
+// }
+//  }
+
+
+// sum of even numbers
+
+// let a=1
+// let b=50
+// let sum=0
+// while(a<=b){
+//     if(a%2==0){
+//         // console.log(a)
+//        sum=sum+a
+    
+//     }
+  
+//     a++
+// }
+// console.log(sum)
+
+// count digits
+
+
+// let t=12345
+
+// let digits=0
+// while(t>0){
+//   t=Math.floor(t/10)
+//   digits=digits+1
+// }
+// console.log(digits)
+
+
+// minimum number
+let n3=27649
+let min=Infinity
+let r=0
+while(n3>0){
+    r=n3%10
+    if(r<min){
+       min=r
+
+    }
+    n3= Math.floor(n3/10)
+}
+console.log(min)
+
+
+// sum of odd digits
+let n4=13579
+let sum=0
+while(n4>0){
+    res=n4%10
+    if(res%2!==0){
+       sum=sum+res
+    }
+    n4=Math.floor(n4/10)
+}
+console.log(sum)
+
+// perfect number
+let n5=280
+let i=1
+let sum1=0
+while(n5>i){
+    if(n5%i==0){
+        sum1=sum1+i
+    }
+    i++
+  
+}
+if(sum1==n5){
+        console.log("perfect number")
+    }else{
+        console.log("not a perfect number")
+    }
+
+
+    </script>
+</body>
+</html>

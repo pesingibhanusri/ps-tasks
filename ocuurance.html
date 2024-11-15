@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <script>
+            let arr=[1,2,3,4,5,6,7,1,2,3,4,5]
+            let obj={}
+            function occurance(arr){
+          for(i=0;i<arr.length;i++){
+            if(obj[arr[i]]){
+                obj[arr[i]]+=1
+            }
+            else{
+                obj[arr[i]]=1
+            }
+          }
+          return obj
+            }
+        console.log( occurance(arr))  
+        
+        
+
+
+
+        // duplicate
+        let arr2 = [1, 2, 2, 3, 4, 4, 5, 5];
+let Arr = [];
+
+for (let i = 0; i < arr2.length; i++) {
+    let isDuplicate = false;
+
+    for (let j = 0; j < Arr.length; j++) {
+        if (arr2[i] === Arr[j]) {
+            isDuplicate = true;
+            break;
+        }
+    }
+
+    if (!isDuplicate) {
+        Arr.push(arr2[i]);
+    }
+}
+
+console.log(Arr);
+
+        </script>
+    </body>
+</body>
+</html>
